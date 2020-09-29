@@ -8,6 +8,7 @@ public class Zoologico {
 	public ArrayList<Zona> zonas = new ArrayList<>();
 	
 	public Zoologico(String nombre, String ubicacion) {
+		super();
 		this.nombre = nombre;
 		this.ubicacion = ubicacion;
 	}
