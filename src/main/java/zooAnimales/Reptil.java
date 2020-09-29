@@ -25,6 +25,7 @@ public class Reptil extends Animal{
 		return listado.size();
 	}
 	
+	@Override
 	public String movimiento() {
 		return "reptar";
 	}

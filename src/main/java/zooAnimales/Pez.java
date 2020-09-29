@@ -25,7 +25,8 @@ public class Pez extends Animal{
 		return listado.size();
 	}
 	
-	public String moviento() {
+	@Override
+	public String movimiento() {
 		return "nadar";
 	}
 	public static Pez crearSalmon(String nombre, int edad, String genero) {
